@@ -1,0 +1,16 @@
+{
+    "fruits": [
+        { "id": 1, "name": "Watermelon", "category": "fruit" },
+        { "id": 2, "name": "Papaya", "category": "fruit" },
+        { "id": 3, "name": "Mango", "category": "fruit" },
+        { "id": 4, "name": "Pineapple", "category": "fruit" },
+        { "id": 5, "name": "Strawberry", "category": "fruit" }
+    ],
+    "vegetables": [
+        { "id": 6, "name": "Potato", "category": "vegetable" },
+        { "id": 7, "name": "Onion", "category": "vegetable" },
+        { "id": 8, "name": "Carrot", "category": "vegetable" },
+        { "id": 9, "name": "Spinach", "category": "vegetable" },
+        { "id": 10, "name": "Tomato", "category": "vegetable" }
+    ]
+}

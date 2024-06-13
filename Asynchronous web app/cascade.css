@@ -1,0 +1,52 @@
+/* Apply styles to the entire body such as font-family, display, height, etc */
+body {
+    font-family: Optima, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    height: 100vh; 
+}
+
+/* Style for container holding the items */
+#items-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
+
+/* Style for category headers */
+.category {
+    width: 90%; 
+    margin-bottom: 10px; 
+    font-weight: bold; 
+}
+
+/* Style for individual items */
+.item {
+    padding: 15px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    background-color: coral;
+    cursor: pointer; 
+}
+
+/* Style for drop zones */
+.dropzone {
+    width: 160px; 
+    height: 100px;
+    padding: 20px; 
+    margin-right: 10px;
+    background-color: #af7db6; 
+    border: 2px dashed #af7db6;
+    text-align: center; 
+    font-weight: bold; 
+    line-height: 100px;
+    cursor: pointer;
+}
+
+/* Hover effect for drop zones */
+.dropzone:hover {
+    background-color: #af7db6; 
+}
